@@ -1,6 +1,6 @@
-# Clustering is an unsupervised learning technique used in machine learning and data analysis to group similar data points together.
-# The primary goal of clustering is to find inherent patterns or groupings in data without pre-labeled outputs (i.e., no ground truth). 
-# This technique is particularly useful when you don't know the number of groups or categories your data belongs to in advance.
+#Clustering is an unsupervised learning technique used in machine learning and data analysis to group similar data points together.
+#The primary goal of clustering is to find inherent patterns or groupings in data without pre-labeled outputs (i.e., no ground truth). 
+#This technique is particularly useful when you don't know the number of groups or categories your data belongs to in advance.
 
 ## Clustering is commonly used in various applications such as:
 
