@@ -31,3 +31,8 @@ A score around 0 indicates that the point lies on or near the decision boundary 
 
 # PCA(Principle Componenet Analysis)
 Principal Component Analysis (PCA) is a statistical technique widely used in data analysis and machine learning for dimensionality reduction, feature extraction, and data visualization. It transforms high-dimensional data into a lower-dimensional space while preserving the most significant patterns in the data. PCA identifies new, uncorrelated variables, called principal components, which maximize the variance in the dataset. The process involves standardizing the data, calculating the covariance matrix, determining eigenvalues and eigenvectors, and projecting the data onto the top-k principal components based on the desired variance retention. By reducing the number of features, PCA simplifies datasets, enhances computational efficiency, and filters out noise, making it particularly useful in fields like image compression, genomics, and finance. PCA is a linear transformation method that excels in revealing hidden structures in data, aiding in model performance and interpretability.
+
+# Gaussian Filters
+Apply a weighted averaging approach using a Gaussian kernel, providing smooth, uniform blurring by emphasizing nearby pixels more than distant ones. While effective at reducing general noise, they tend to blur edges in the process.
+# Median Filters
+On the other hand, replace each pixel value with the median of its neighborhood, making them particularly effective at removing "salt-and-pepper" noise while preserving edges better than Gaussian filters.
